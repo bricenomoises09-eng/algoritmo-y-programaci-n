@@ -1,0 +1,15 @@
+Algoritmo VerificarMayoriaEdad
+	
+	escribir "ingrese el año actual:"
+	leer anioactual
+	escribir "ingrese su año de nacimiento:"
+	leer aniodenacimiento
+	edad = anioactual * aniodenacimiento
+	si edad >= 18 Entonces
+		escribir " es mayor de edad. edad :", edad
+	SiNo
+		escribir " es menor de edad. edad:", edad
+	FinSi
+	
+	
+FinAlgoritmo
