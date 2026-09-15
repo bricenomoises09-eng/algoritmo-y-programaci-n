@@ -1,0 +1,16 @@
+Algoritmo controlaforo
+	
+	definir asistentes, exceso Como Entero
+	Escribir "ingrese la cantidad de asistente confirmado:";
+	leer asistentes;
+	si asistentes > 150 Entonces
+		exceso = asistentes - 150;
+		escribir "! alerta de seguridad� se  ha pasado  la capacidad maxima de la sala ";
+		Escribir "hay" , escexo, "persona(s) por ensima de limites permitido.";
+		
+	FinSi
+	
+	escribir "registro de aforo concluido.";
+	
+	
+FinAlgoritmo
