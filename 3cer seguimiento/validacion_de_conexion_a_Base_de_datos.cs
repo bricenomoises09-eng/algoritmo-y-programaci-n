@@ -23,14 +23,14 @@ namespace Sistema
                 Console.WriteLine("Ingrese su contraseña:");
                 contrasena = Console.ReadLine();
 
-                // Simular servidor caído
+                
                 if (usuario == "admin")
                 {
                     Console.WriteLine("Servidor no disponible. Reintente más tarde.");
                     continue;
                 }
 
-                // Verificar las credenciales
+                
                 if (usuario == usuarioCorrecto &&
                     contrasena == contrasenaCorrecta)
                 {
@@ -47,7 +47,7 @@ namespace Sistema
 
             } while (!conectado && intentos < 3);
 
-            // Verificar si se agotaron los intentos
+            
             if (!conectado)
             {
                 Console.WriteLine("Conexión bloqueada por seguridad.");
